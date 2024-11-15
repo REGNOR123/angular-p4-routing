@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-p4-routing"
+    }
+  },
+  "defaultProject": "angular-p4-routing",
+  "cli": {
+    "analytics": false
+  }
 }
