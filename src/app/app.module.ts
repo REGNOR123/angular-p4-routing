@@ -11,6 +11,9 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ProductIdComponent } from './product-id/product-id.component';
 import { OrderViewComponent } from './order-view/order-view.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ViewComponent } from './view/view.component';
+import { EditComponent } from './edit/edit.component';
+import { ViewIdComponent } from './view-id/view-id.component';
 
 
 @NgModule({
@@ -23,6 +26,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ProductIdComponent,
     OrderViewComponent,
     PageNotFoundComponent,
+    ViewComponent,
+    EditComponent,
+    ViewIdComponent,
   ],
   imports: [
     BrowserModule,
